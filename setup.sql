@@ -1,0 +1,1 @@
+CREATE TABLE anime (anime_id SERIAL PRIMARY KEY, title TEXT);

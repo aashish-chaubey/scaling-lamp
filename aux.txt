@@ -1,0 +1,12 @@
+docker run --rm --name mydb -d -v csv-data:/var/lib/postgresql/data/ -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=anime -p 5432:5432 postgres_withschema:latest
+
+Step 1: 
+Create a virtual environment & activate the env
+conda create -n <virtual_env> python=3.8.0
+conda activate <virtual_env>
+
+Step 2:
+Install all the packages
+
+Step 3: 
+
